@@ -6,6 +6,13 @@ body {
     margin: 0;
     padding: 0;
 }
+/*Thumbnail styling*/
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 4px; 
+}
 
 /* Header styling */
 header {
