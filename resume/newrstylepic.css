@@ -15,13 +15,9 @@ body {
     }
 
 image {
-      width: 500px;        
-      height: 500px;      
-      object-fit: cover;   
-      border-radius: 20px;
-      border: 5px solid #ffb6c1;
-      box-shadow: 0 10px 20px rgba(255, 182, 193, 0.4);
-      transition: transform 0.3s ease;
+      max-width: 500px;        
+      max-height: 500px;      
+      object-fit: cover;
     }
 
     .resize {
