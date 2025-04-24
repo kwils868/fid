@@ -15,8 +15,8 @@ body {
     }
 
 image {
-      width: 1000px;        
-      height: 1000px;      
+      width: 500px;        
+      height: 5000px;      
       object-fit: cover;   
       border-radius: 20px;
       border: 5px solid #ffb6c1;
