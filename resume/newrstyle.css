@@ -12,7 +12,11 @@ img {
   object-fit: cover; 
   border-radius: 4px; 
 }
-
+a "socials-icons":hover { /* excludes the insta icon from CSS*/
+  background-color:none;
+  color:#0000
+  text-decoration:none;
+} 
     h1 {
       margin-top: 50px;
       font-size: 3em; /* Rule 5 */
