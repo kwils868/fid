@@ -1,47 +1,77 @@
-/* General Styles */
+
+@import url('https://fonts.google.com/specimen/Merriweather');
+
+
 body {
-    font-family: Verdana, sans-serif;
-    background-color: #ffd480; /* Light orange background */
-    color: #361717; /* Dark red text */
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #fff7f0;
+  color: #4d2c1d;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
-/* Header */
+
 header {
-    background-color: #fff5e6; /* Cream background */
-    color: black;
-    padding: 20px;
-    text-align: center;
+  background-color: #ff9a3c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #ff7733;
 }
 
-/* Navigation */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 2px;
+  margin: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+
+nav {
+  background-color: #ffa94d;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
+
 
 nav a {
-    text-decoration: none;
-    color: red;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #ff7733;
+  border-radius: 5px;
 }
 
-/* Main Content */
-main {
-    padding: 20px;
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
-/* GIF Button Styles */
+
+button {
+  background-color: #ff9a3c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .gif-button {
     width: 250px;
     height: auto;
@@ -53,27 +83,26 @@ main {
     display: inline-block;
 }
 
-.gif-button:hover {
-    transform: scale(1.1);
-}
-
-/* Footer */
 footer {
-    background-color: #d1633c;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
+  background-color: #4d2c1d;
+  color: #fff0e5;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
 }
 
-/* Style for h2 (default to red) */
-h2 {
-    color: red;
-}
-
-/* Logos - Fixed Size */
 footer img {
     width: 40px;
     height: 40px;
     margin-left: .5em;
     margin-right: .5em;
+}
+
+
+blockquote {
+  border-left: 4px solid #ffa94d;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-style: italic;
+  background-color: #fff0e5;
 }
