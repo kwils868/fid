@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Character | Railgrind</title>
+  <link rel="stylesheet" href="silly.css" />
+  <style>
+    .profile-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 3rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      align-items: flex-start;
+    }
+
+    .profile-image {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .profile-image img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .profile-details {
+      flex: 2 1 500px;
+    }
+
+    .profile-details h1 {
+      color: var(--purple);
+      margin-top: 0;
+    }
+
+    .bio {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .traits, .catchphrase {
+      margin-bottom: 2rem;
+    }
+
+    .traits ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .traits li::before {
+      content: "🟣 ";
+      margin-right: 0.5rem;
+    }
+
+    .catchphrase {
+      font-style: italic;
+      background: var(--lavender);
+      padding: 1rem;
+      border-left: 4px solid var(--pink);
+    }
+
+    @media (max-width: 768px) {
+      .profile-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .profile-details {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Railgrind</h1>
+    <p>Character Profile</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#bio">Bio</a>
+    <a href="#traits">Traits</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+
+  <section class="profile-container">
+    <div class="profile-image">
+      <img src="placeholderstar.jpg" alt="(Character Name) Reference Art" />
+    </div>
+
+    <div class="profile-details">
+      <h1>Character Name</h1>
+      <p class="catchphrase">“Insert Phrase Here!”</p>
+
+      <div class="bio" id="bio">
+        <p>Longer bio for the character.</p>
+      </div>
+
+      <div class="traits" id="postraits">
+        <h2>Positive Traits</h2>
+        <ul>
+          <li>Ex1</li>
+          <li>Ex2</li>
+          <li>Ex3</li>
+          <li>Ex4</li>
+        </ul>
+      </div>
+
+<div class="traits" id="negtraits">
+        <h2>Negative Traits</h2>
+        <ul>
+          <li>Ex1</li>
+          <li>Ex2</li>
+          <li>Ex3</li>
+          <li>Ex4</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <h2>Gallery(Under Construction)</h2>
+    <p>[Placeholder for future sketches, concepts, storyboards and animated pieces!]</p>
+  </section> 
+  -->
+
+  <footer>
+    <p>&copy; 2025 Kaia Williams. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
